@@ -46,9 +46,9 @@ Por isso, em uma situação real, a chave deveria ser trocada.
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+- <<<<<<< : mostra o início da versão que estava na main.
+- ======= : separa as duas versões que entraram em conflito.
+- >>>>>>> : mostra o fim da versão da branch painel-b.
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
 
