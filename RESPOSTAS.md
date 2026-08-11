@@ -9,9 +9,9 @@ Dupla (M2 em diante): João Pedro de França Maciel
 
 **Hash curto do commit que introduziu o erro: 7ad6826**
 
-**Autor: Diego Ferraz**
+**Autor: Tarcisio Melo**
 
-**Data:22/05/2026 11:30:00**
+**Data:15/06/2026 22:38:00**
 
 **Linha alterada (antes e depois):**
 
@@ -19,13 +19,11 @@ Dupla (M2 em diante): João Pedro de França Maciel
 antes:
 
 return (leitura - 32) * 5 / 9;
-const celsius = converterTemperatura(sensor.valor).toFixed(1);
 
 
 depois:
 
-function converterTemperatura(leitura) {
-}
+return leitura * 9 / 5 + 32;
 
 ```
 
@@ -37,6 +35,10 @@ function converterTemperatura(leitura) {
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
+
+Sim. A chave ainda pode ser encontrada nos commits antigos do histórico.
+Por isso, em uma situação real, a chave deveria ser trocada.
+
 
 ---
 
