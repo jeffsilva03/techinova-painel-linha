@@ -1,24 +1,32 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome: Jefferson José da Silva
+Dupla (M2 em diante): João Pedro de França Maciel
 
 ---
 
 ## M2 - Quem quebrou o painel
 
-**Hash curto do commit que introduziu o erro:**
+**Hash curto do commit que introduziu o erro: 7ad6826**
 
-**Autor:**
+**Autor: Diego Ferraz**
 
-**Data:**
+**Data:22/05/2026 11:30:00**
 
 **Linha alterada (antes e depois):**
 
 ```
 antes:
+
+return (leitura - 32) * 5 / 9;
+const celsius = converterTemperatura(sensor.valor).toFixed(1);
+
+
 depois:
+
+function converterTemperatura(leitura) {
+}
+
 ```
 
 ---
